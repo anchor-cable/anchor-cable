@@ -14,7 +14,7 @@
     <title>引っ越しPon!</title>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-light bg-warning"　style="background-color: #E2671e;">
   <a class="navbar-brand" href="#">引っ越しPon!</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -28,14 +28,7 @@
       <li class="nav-item">
         <a class="nav-link" href="#">Login</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Disabled</a>
-      </li>
     </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
   </div>
 </nav>
 <div class="containar">
@@ -47,16 +40,23 @@
         質問1
     </div>
     <div class="question">
-        あなたは何故引っ越しをしますか？(1)
+        あなたは何故引っ越しをしますか？(最も当てはまる１つを選択)
     </div>
+    <div data-toggle="buttons">
     <div class="button_list1">
-      <button type="button" class="btn btn-primary chQ" value="suginami">出産</button>
-      <button type="button" class="btn btn-primary chQ" value="nerima">同棲/結婚</button>
-      <button type="button" class="btn btn-primary chQ" value="shibuya">転勤/転職</button>
+      <button type="button" class="btn btn-warning outline chQ" value="suginami">
+          <input type="radio" name="kazoku">出産</button>
+      <button type="button" class="btn btn-warning chQ" value="nerima">
+          <input type="radio" name="kazoku">同棲/結婚</button>
+      <button type="button" class="btn btn-warning chQ" value="shibuya">
+          <input type="radio" name="kazoku">転勤/転職</button>
     </div>
     <div class="button_list2">
-      <button type="button" class="btn btn-primary chQ" value="ooimachi">世帯人数変更</button>
-      <button type="button" class="btn btn-primary chQ" value="">同棲/結婚</button>
+      <button type="button" class="btn btn-warning chQ" value="ooimachi">
+          <input type="radio" name="kazoku">世帯人数変更</button>
+      <button type="button" class="btn btn-warning chQ" value="">
+          <input type="radio" name="kazoku">同棲/結婚</button>
+    </div>
     </div>
     <form>
       <div class="form-group">
@@ -70,20 +70,22 @@
       質問2
   </div>
   <div class="question">
-      一緒に住む家族の年齢を教えてください。
+      一緒に住む家族の年齢を教えてください(複数可能)
   </div>
+  <div data-toggle="buttons">
   <div class="button_list">
-    <button type="button" class="btn btn-primary">出産</button>
-    <button type="button" class="btn btn-primary">同棲/結婚</button>
-    <button type="button" class="btn btn-primary">出産</button>
-    <button type="button" class="btn btn-primary">出産</button>
-    <button type="button" class="btn btn-primary">同棲/結婚</button>
-    <button type="button" class="btn btn-primary">出産</button>  
+    <button type="button" class="btn btn-warning">
+      <input type="radio" name="kazoku">出産</button>
+    <button type="button" class="btn btn-warning">
+      <input type="radio" name="kazoku">同棲/結婚</button>
+    <button type="button" class="btn btn-warning">
+      <input type="radio" name="kazoku">出産</button>
+  </div>
   </div>
 </div>
 
 <div>
-  <a href="shibuya.html" id="next_page"><button type="button" class="btn btn-primary">次へ</button>
+  <a href="shibuya.html" id="next_page"><button type="button" class="btn btn-warning">次へ</button>
 </div>
 
 
