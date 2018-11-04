@@ -1,0 +1,28 @@
+.qcontainar {
+  margin: 20px;
+  width: 350px;
+}
+
+.btn {
+  margin: 2px;
+  width: 96px;
+  height: 40px;
+  font-size: 12px;
+  background: none;
+}
+
+.txtline {
+  margin: 2px;
+}
+
+input{
+  display:none; 
+}
+
+body{
+  background-color: #FBFBF0;
+}
+
+.bg-light{
+  background-color: #E2671e
+}
