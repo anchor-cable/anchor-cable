@@ -45,17 +45,17 @@
     </div>
     <div data-toggle="buttons">
     <div class="button_list1">
-      <button type="button" class="btn btn-warning outline chQ" value="suginami">
+      <button type="button" class="btn btn-warning outline chQ" value="A">
           <input type="radio" name="reason">学校入学</button>
-      <button type="button" class="btn btn-warning chQ" value="nerima">
+      <button type="button" class="btn btn-warning chQ" value="B">
           <input type="radio" name="reason">同棲/結婚</button>
-      <button type="button" class="btn btn-warning chQ" value="shibuya">
+      <button type="button" class="btn btn-warning chQ" value="C">
           <input type="radio" name="reason">出産</button>
     </div>
     <div class="button_list2">
-      <button type="button" class="btn btn-warning chQ" value="ooimachi">
+      <button type="button" class="btn btn-warning">
           <input type="radio" name="reason">職場変更</button>
-      <button type="button" class="btn btn-warning chQ" value="">
+      <button type="button" class="btn btn-warning">
           <input type="radio" name="reason">世帯人数変更</button>
     </div>
     </div>
@@ -127,7 +127,7 @@
   </div>
 
 <div>
-  <a href="shibuya.html" id="next_page"><button type="button" class="btn btn-warning">次へ</button>
+  <a href="A.jpg" id="next_page"><button type="button" class="btn btn-warning">次へ</button>
 </div>
 
 
@@ -139,11 +139,11 @@
 
 $('.chQ').on('click',function(){
   $('#next_page').toggle;
-  var area_page = this.value + ".html";
+  var area_page = this.value + ".jpg";
   $('#next_page').attr("href", area_page);
 });
 
-
+/Users/suzukitomoya/HikkoshiPon/hikkoshi
 
 </script>
 </body>
