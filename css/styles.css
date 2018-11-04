@@ -3,9 +3,17 @@
   width: 350px;
 }
 
-.btn {
+.btn{
   margin: 2px;
   width: 96px;
+  height: 40px;
+  font-size: 12px;
+  background: none;
+}
+
+.btn-three{
+  margin: 2px;
+  width: 133px;
   height: 40px;
   font-size: 12px;
   background: none;
