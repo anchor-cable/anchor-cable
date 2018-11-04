@@ -3416,8 +3416,17 @@ ul.menu_7 li a span {
 
 .qcontainar {
   margin: 20px;
+  width: 350px;
 }
 
 .btn {
   margin: 2px;
+  width: 96px;
+  height: 40px;
+  font-size: 12px;
 }
+
+.txtline {
+  margin: 2px;
+}
+
