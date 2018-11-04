@@ -3431,7 +3431,7 @@ ul.menu_7 li a span {
   margin: 2px;
 }
 
-input[type="radio"] {
+input{
   display:none; 
 }
 
